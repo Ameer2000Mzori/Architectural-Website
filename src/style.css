@@ -4,3 +4,11 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
