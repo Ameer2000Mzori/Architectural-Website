@@ -99,6 +99,42 @@ body {
       justify-content: center;
       width: 70%;
       height: 100%;
+
+      .search-Wrap {
+        position: relative;
+        width: 370px;
+        height: 40px;
+        // overflow: hidden;
+
+        .text-Input {
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 90%;
+          background-color: #3e3e41;
+          color: white;
+          outline: none;
+          border: none;
+          padding-left: 35px;
+          border-radius: 5px;
+
+          &::placeholder {
+            font-family: $fontOne;
+            font-weight: 300;
+            font-size: 0.9rem;
+            color: white;
+          }
+        }
+
+        #search-Icon {
+          top: 25%;
+          color: #ccc;
+          left: 10px;
+          padding: 0;
+          margin: 0;
+          position: absolute;
+        }
+      }
     }
   }
 }
