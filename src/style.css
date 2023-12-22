@@ -10,5 +10,59 @@ body {
   flex-direction: row;
   text-align: center;
   align-items: center;
-  justify-content: space-evenly;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #202020;
+  height: 13%;
+}
+
+.navbar .left-Side-Wrap {
+  height: 100%;
+  width: 50%;
+}
+
+.navbar .left-Side-Wrap .navbrand-Wrap {
+  padding: 0;
+  width: 30%;
+  height: 100%;
+  margin-left: 6rem;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap {
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+
+.navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap .brand-One {
+  border: 0.3rem solid #dba81b;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -15px;
+  left: 5px;
+}
+
+.navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap .brand-Two {
+  background-color: #202020;
+  height: 105%;
+  width: 105%;
+  position: absolute;
+  top: -5px;
+  left: 20px;
+}
+
+.navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap .brand-Three {
+  border: 0.3rem solid #dba81b;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  top: 0;
+  left: 25px;
 }
