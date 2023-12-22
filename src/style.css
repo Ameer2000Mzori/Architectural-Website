@@ -24,14 +24,14 @@ body {
 
 .navbar .left-Side-Wrap .navbrand-Wrap {
   padding: 0;
-  width: 30%;
+  width: 50%;
   height: 100%;
-  margin-left: 6rem;
+  margin-left: 8rem;
   display: flex;
   flex-direction: row;
   text-align: center;
   align-items: center;
-  gap: 25px;
+  gap: 3rem;
 }
 
 .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap {
@@ -45,7 +45,7 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: -15px;
+  top: -13px;
   left: 5px;
 }
 
@@ -54,7 +54,7 @@ body {
   height: 105%;
   width: 105%;
   position: absolute;
-  top: -5px;
+  top: -2px;
   left: 20px;
 }
 
@@ -63,6 +63,15 @@ body {
   height: 90%;
   width: 90%;
   position: absolute;
-  top: 0;
+  top: 3px;
   left: 25px;
+}
+
+.navbar .left-Side-Wrap .navbrand-Wrap .text-Wrap .nav-Brand-Text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  box-sizing: border-box;
 }
