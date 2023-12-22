@@ -75,3 +75,21 @@ body {
   letter-spacing: 0.2rem;
   box-sizing: border-box;
 }
+
+.navbar .right-Side-Wrap {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .right-Side-Wrap .search-Menu-Wrap {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+}
