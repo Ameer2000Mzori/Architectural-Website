@@ -14,12 +14,12 @@ body {
   width: 100%;
   top: 0;
   background-color: #202020;
-  height: 13%;
+  height: 12%;
 }
 
 .navbar .left-Side-Wrap {
   height: 100%;
-  width: 50%;
+  width: 100%;
 }
 
 .navbar .left-Side-Wrap .navbrand-Wrap {
@@ -38,6 +38,7 @@ body {
   position: relative;
   height: 50px;
   width: 50px;
+  margin: 5px;
 }
 
 .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap .brand-One {
@@ -74,10 +75,12 @@ body {
   color: #fff;
   letter-spacing: 0.2rem;
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .navbar .right-Side-Wrap {
-  width: 50%;
+  width: 60%;
   height: 100%;
   display: flex;
   text-align: center;
@@ -89,9 +92,10 @@ body {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   width: 70%;
   height: 100%;
+  gap: 55px;
 }
 
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap {
@@ -127,4 +131,21 @@ body {
   padding: 0;
   margin: 0;
   position: absolute;
+}
+
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap .bars {
+  height: 2px;
+  width: 100%;
+  background-color: #ccc;
 }

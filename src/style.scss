@@ -18,11 +18,11 @@ body {
   width: 100%;
   top: 0;
   background-color: #202020;
-  height: 13%;
+  height: 12%;
 
   .left-Side-Wrap {
     height: 100%;
-    width: 50%;
+    width: 100%;
 
     .navbrand-Wrap {
       padding: 0;
@@ -39,6 +39,7 @@ body {
         position: relative;
         height: 50px;
         width: 50px;
+        margin: 5px;
         // border: 0.4rem solid #dba81b;
         // background-color: black;
 
@@ -79,13 +80,15 @@ body {
           color: #fff;
           letter-spacing: 0.2rem;
           box-sizing: border-box;
+          padding: 0;
+          margin: 0;
         }
       }
     }
   }
 
   .right-Side-Wrap {
-    width: 50%;
+    width: 60%;
     height: 100%;
     display: flex;
     text-align: center;
@@ -96,9 +99,10 @@ body {
       display: flex;
       text-align: center;
       align-items: center;
-      justify-content: center;
+      justify-content: end;
       width: 70%;
       height: 100%;
+      gap: 55px;
 
       .search-Wrap {
         position: relative;
@@ -133,6 +137,23 @@ body {
           padding: 0;
           margin: 0;
           position: absolute;
+        }
+      }
+
+      .burger-Menu-Wrap {
+        height: 45px;
+        width: 45px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        cursor: pointer;
+
+        .bars {
+          height: 2px;
+          width: 100%;
+          background-color: #ccc;
         }
       }
     }
