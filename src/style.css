@@ -149,3 +149,42 @@ body {
   width: 100%;
   background-color: #ccc;
 }
+
+.navlinks {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b0b14;
+}
+
+.navlinks ul {
+  list-style: none;
+  padding: none;
+  margin: none;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navlinks ul li {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.navlinks ul li a {
+  text-decoration: none;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 3rem;
+  color: #fff;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
