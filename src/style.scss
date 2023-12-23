@@ -161,6 +161,43 @@ body {
           background-color: #ccc;
         }
       }
+
+      .burger-Menu-Wrap.acitve {
+        .bar-One {
+          transform-origin: center left;
+          padding: 0;
+          margin: 0;
+          left: 0;
+          top: 50%;
+          position: absolute;
+          transform: rotate(-30deg);
+          height: 2px;
+          width: 50%;
+          background-color: #ccc;
+        }
+
+        .bar-Two {
+          height: 2px;
+          background-color: #ccc;
+          left: 0;
+          width: 150%;
+          position: absolute;
+          top: 50%;
+        }
+
+        .bar-Three {
+          transform-origin: center left;
+          padding: 0;
+          margin: 0;
+          left: 0;
+          top: 50%;
+          position: absolute;
+          transform: rotate(30deg);
+          height: 2px;
+          width: 50%;
+          background-color: #ccc;
+        }
+      }
     }
   }
 }

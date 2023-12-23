@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -16,12 +15,10 @@ body {
   background-color: #202020;
   height: 12%;
 }
-
 .navbar .left-Side-Wrap {
   height: 100%;
   width: 100%;
 }
-
 .navbar .left-Side-Wrap .navbrand-Wrap {
   padding: 0;
   width: 50%;
@@ -33,14 +30,12 @@ body {
   align-items: center;
   gap: 3rem;
 }
-
 .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap {
   position: relative;
   height: 50px;
   width: 50px;
   margin: 5px;
 }
-
 .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap .brand-One {
   border: 0.3rem solid #dba81b;
   height: 100%;
@@ -49,7 +44,6 @@ body {
   top: -13px;
   left: 5px;
 }
-
 .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap .brand-Two {
   background-color: #202020;
   height: 105%;
@@ -58,7 +52,6 @@ body {
   top: -2px;
   left: 20px;
 }
-
 .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap .brand-Three {
   border: 0.3rem solid #dba81b;
   height: 90%;
@@ -67,7 +60,6 @@ body {
   top: 3px;
   left: 25px;
 }
-
 .navbar .left-Side-Wrap .navbrand-Wrap .text-Wrap .nav-Brand-Text {
   font-size: 1.6rem;
   font-weight: 300;
@@ -78,7 +70,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .navbar .right-Side-Wrap {
   width: 60%;
   height: 100%;
@@ -87,7 +78,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .navbar .right-Side-Wrap .search-Menu-Wrap {
   display: flex;
   text-align: center;
@@ -98,13 +88,11 @@ body {
   height: 100%;
   gap: 55px;
 }
-
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap {
   position: relative;
   width: 370px;
   height: 40px;
 }
-
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input {
   top: 0;
   left: 0;
@@ -117,14 +105,12 @@ body {
   padding-left: 35px;
   border-radius: 5px;
 }
-
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input::placeholder {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 0.9rem;
   color: white;
 }
-
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap #search-Icon {
   top: 25%;
   color: #ccc;
@@ -133,7 +119,6 @@ body {
   margin: 0;
   position: absolute;
 }
-
 .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap {
   position: absolute;
   top: 30px;
@@ -148,10 +133,41 @@ body {
   justify-content: space-evenly;
   cursor: pointer;
 }
-
 .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap .bars {
   height: 2px;
   width: 100%;
+  background-color: #ccc;
+}
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap.acitve .bar-One {
+  transform-origin: center left;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  transform: rotate(-30deg);
+  height: 2px;
+  width: 50%;
+  background-color: #ccc;
+}
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap.acitve .bar-Two {
+  height: 2px;
+  background-color: #ccc;
+  left: 0;
+  width: 150%;
+  position: absolute;
+  top: 50%;
+}
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap.acitve .bar-Three {
+  transform-origin: center left;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  transform: rotate(30deg);
+  height: 2px;
+  width: 50%;
   background-color: #ccc;
 }
 
@@ -167,7 +183,6 @@ body {
   background-color: #0b0b14;
   transition: all 500ms ease-in-out;
 }
-
 .navlinks ul {
   list-style: none;
   padding: none;
@@ -180,7 +195,6 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-
 .navlinks ul li {
   width: 30%;
   padding-left: 1rem;
@@ -188,7 +202,6 @@ body {
   margin: 0.2rem;
   position: relative;
 }
-
 .navlinks ul li::before {
   position: absolute;
   content: "";
@@ -198,7 +211,6 @@ body {
   height: 5px;
   transition: all 350ms ease-in-out;
 }
-
 .navlinks ul li a {
   text-decoration: none;
   font-family: "Alfa Slab One", cursive;
@@ -213,11 +225,9 @@ body {
   transition: all 150ms ease-in-out;
   opacity: 0;
 }
-
 .navlinks ul li a.active {
   opacity: 1;
 }
-
 .navlinks ul li:hover::before {
   content: "";
   position: absolute;
@@ -231,3 +241,5 @@ body {
 .navlinks.active {
   transform: translateY(-100%);
 }
+
+/*# sourceMappingURL=style.css.map */
