@@ -309,6 +309,7 @@ body {
   }
 
   .navbar .left-Side-Wrap .navbrand-Wrap {
+    margin-left: 5rem;
     width: 70%;
   }
 
@@ -343,6 +344,7 @@ body {
 
   .navbar .left-Side-Wrap .navbrand-Wrap {
     width: 50%;
+    margin-left: 4rem;
   }
 
   .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap {
@@ -392,5 +394,51 @@ body {
 
   .navlinks ul li a {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    height: 8%;
+  }
+
+  .navbar .left-Side-Wrap {
+    width: 30%;
+  }
+
+  .navbar .left-Side-Wrap .navbrand-Wrap {
+    width: 100%;
+    margin-left: 1rem;
+  }
+
+  .navbar .left-Side-Wrap .navbrand-Wrap .text-Wrap {
+    display: none;
+  }
+
+  .navbar .right-Side-Wrap {
+    width: 70%;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap {
+    width: 80%;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap {
+    width: 170px;
+    height: 35px;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input {
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input::placeholder {
+    font-weight: 300;
+    font-size: 0.5rem;
+  }
+
+  .navlinks ul li a {
+    font-size: 1.2rem;
   }
 }

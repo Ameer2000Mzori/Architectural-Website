@@ -325,6 +325,7 @@ body {
 
     .left-Side-Wrap {
       .navbrand-Wrap {
+        margin-left: 5rem;
         width: 70%;
 
         .logo-Wrap {
@@ -370,6 +371,7 @@ body {
     .left-Side-Wrap {
       .navbrand-Wrap {
         width: 50%;
+        margin-left: 4rem;
 
         .logo-Wrap {
           height: 30px;
@@ -433,5 +435,53 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  // 768px
+  .navbar {
+    height: 8%;
+
+    .left-Side-Wrap {
+      width: 30%;
+
+      .navbrand-Wrap {
+        width: 100%;
+        margin-left: 1rem;
+
+        .text-Wrap {
+          display: none;
+        }
+      }
+    }
+
+    .right-Side-Wrap {
+      width: 70%;
+
+      .search-Menu-Wrap {
+        width: 80%;
+
+        .search-Wrap {
+          width: 170px;
+          height: 35px;
+
+          .text-Input {
+            padding-left: 35px;
+            border-radius: 5px;
+
+            &::placeholder {
+              font-weight: 300;
+              font-size: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .navlinks {
+    ul {
+      li {
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
 }
