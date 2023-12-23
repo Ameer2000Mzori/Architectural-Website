@@ -647,7 +647,34 @@ body {
 // header responsvness:
 
 @media screen and (max-width: 1000px) {
-  // 1450px
+  .header {
+    .head {
+      .img-Text-Wrap {
+        .text-Wrap {
+          .text-Wrapper {
+            .text-One {
+              font-size: 5rem;
+            }
+
+            .text-Two {
+              font-size: 5rem;
+            }
+          }
+        }
+
+        .button-Text-Wrap {
+          .button-Text {
+            font-size: 1.1rem;
+          }
+
+          .header-button {
+            padding: 17px 35px;
+            font-size: 13px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 850px) {
