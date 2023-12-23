@@ -804,8 +804,37 @@ body {
   justify-content: space-evenly;
   right: 0;
   bottom: 0;
-  width: 200px;
-  height: 100px;
+  width: 400px;
+  height: 120px;
+}
+
+.about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: start;
+  justify-content: center;
+}
+
+.about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 4rem;
+  color: #555;
+}
+
+.about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-2 {
+  font-family: "Abel", sans-serif;
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-1,
+.about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-2 {
+  padding: 0;
+  margin: 0;
 }
 
 .about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .decoration-Gold-Strip {
