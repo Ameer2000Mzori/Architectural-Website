@@ -164,6 +164,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #0b0b14;
+  transition: all 1000ms ease-in-out;
 }
 
 .navlinks ul {
@@ -218,4 +219,8 @@ body {
   top: 50%;
   left: 0;
   background-color: #dba81b;
+}
+
+.navlinks:hover {
+  transform: translateY(-100%);
 }
