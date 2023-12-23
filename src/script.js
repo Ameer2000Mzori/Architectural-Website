@@ -34,8 +34,8 @@ var runEffect = function () {
         console.log(elementsCount);
     }
     else {
-        navlinkEl.classList.add("active");
         elementsCount = 0;
+        navlinkEl.classList.add("active");
         aElements.forEach(function (aElement) {
             if (aElement.classList.contains("active")) {
                 aElement.classList.remove("active");

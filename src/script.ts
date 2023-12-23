@@ -11,7 +11,7 @@ let elementsCount = 0;
 const runEffect = () => {
   if (navlinkEl.classList.contains("active")) {
     navlinkEl.classList.remove("active");
-    const giveClassInt = setInterval(() => {
+    let giveClassInt = setInterval(() => {
       if (elementsCount < aElements.length) {
         aElements[elementsCount].classList.add("active");
       } else {
@@ -22,7 +22,7 @@ const runEffect = () => {
       }
     }, 300);
 
-    const increaseNum = setInterval(() => {
+    let increaseNum: any = setInterval(() => {
       if (elementsCount < aElements.length) {
         elementsCount++;
         console.log(elementsCount);
@@ -34,8 +34,8 @@ const runEffect = () => {
     }, 400);
     console.log(elementsCount);
   } else {
-    navlinkEl.classList.add("active");
     elementsCount = 0;
+    navlinkEl.classList.add("active");
     aElements.forEach((aElement) => {
       if (aElement.classList.contains("active")) {
         aElement.classList.remove("active");
