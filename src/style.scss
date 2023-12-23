@@ -316,3 +316,16 @@ body {
 .navlinks.active {
   transform: translateY(-100%);
 }
+
+// navbar responsvness:
+@media screen and (max-width: 1400px) {
+  // 1500px
+}
+
+@media screen and (max-width: 1024px) {
+  // 1024px
+}
+
+@media screen and (max-width: 768px) {
+  // 768px
+}
