@@ -693,14 +693,16 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: start;
-  align-items: center;
+  align-items: end;
   width: 45%;
   height: 100%;
 }
 
 .about .about-Left-Side .left-Wrap {
   height: 50%;
-  width: 100%;
+  width: 70%;
+  text-align: start;
+  align-items: start;
 }
 
 .about .about-Left-Side .left-Wrap .about-Left-Text-1 {
@@ -714,7 +716,7 @@ body {
   font-size: 1rem;
   font-family: "Abel", sans-serif;
   color: #dba81b;
-  width: 50%;
+  width: 80%;
   font-weight: 100;
 }
 
@@ -737,4 +739,14 @@ body {
 
 .about .about-Left-Side .left-Wrap .about-Left-Button:active {
   transform: scale(0.9);
+}
+
+.about .about-Right-Side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+  align-items: center;
+  width: 45%;
+  height: 100%;
 }
