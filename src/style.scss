@@ -767,5 +767,24 @@ body {
     align-items: center;
     width: 45%;
     height: 100%;
+
+    .left-Wrap {
+      height: 50%;
+      width: 100%;
+
+      .about-Left-Text-1 {
+        font-size: 3rem;
+        font-family: $fontThree;
+        color: white;
+        font-weight: 100;
+      }
+
+      .about-Left-Text-2 {
+        font-size: 1rem;
+        font-family: $fontThree;
+        color: #dba81b;
+        font-weight: 100;
+      }
+    }
   }
 }

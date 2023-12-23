@@ -697,3 +697,22 @@ body {
   width: 45%;
   height: 100%;
 }
+
+.about .about-Left-Side .left-Wrap {
+  height: 50%;
+  width: 100%;
+}
+
+.about .about-Left-Side .left-Wrap .about-Left-Text-1 {
+  font-size: 3rem;
+  font-family: "Abel", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+.about .about-Left-Side .left-Wrap .about-Left-Text-2 {
+  font-size: 1rem;
+  font-family: "Abel", sans-serif;
+  color: #dba81b;
+  font-weight: 100;
+}
