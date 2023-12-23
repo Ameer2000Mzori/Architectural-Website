@@ -750,7 +750,7 @@ body {
 }
 // about
 .about {
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -837,7 +837,6 @@ body {
         flex-direction: column;
         text-align: center;
         align-items: center;
-        // justify-content: center;
         height: 500px;
         width: 500px;
 
@@ -862,6 +861,25 @@ body {
           height: 300px;
           width: 500px;
           border: 3rem solid #555;
+        }
+      }
+
+      .right-Text-Bottom-Wrap {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        right: 0;
+        bottom: 0;
+        width: 200px;
+        height: 100px;
+
+        .decoration-Gold-Strip {
+          height: 100%;
+          width: 7%;
+          background-color: #dba81b;
         }
       }
     }
