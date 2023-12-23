@@ -92,7 +92,7 @@ body {
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: end;
+  justify-content: start;
   width: 70%;
   height: 100%;
   gap: 55px;
@@ -135,8 +135,8 @@ body {
 
 .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap {
   position: fixed;
-  top: 25px;
-  right: 25px;
+  top: 30px;
+  right: 9rem;
   z-index: 5;
   height: 45px;
   width: 45px;

@@ -1,6 +1,7 @@
 // selecting elements
 var aElements = document.querySelectorAll("a");
 var burgerMenuBtn = document.getElementsByClassName("burger-Menu-Wrap")[0];
+var navlinkEl = document.getElementsByClassName("navlinks")[0];
 // gelobal varibales
 var elementsCount = 0;
 // functions
