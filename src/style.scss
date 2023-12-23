@@ -319,7 +319,108 @@ body {
 
 // navbar responsvness:
 @media screen and (max-width: 1400px) {
-  // 1500px
+  .navbar {
+    height: 8%;
+
+    .left-Side-Wrap {
+      .navbrand-Wrap {
+        width: 70%;
+
+        .logo-Wrap {
+          height: 40px;
+          width: 40px;
+        }
+
+        .text-Wrap {
+          .nav-Brand-Text {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+
+    .right-Side-Wrap {
+      .search-Menu-Wrap {
+        width: 70%;
+      }
+    }
+  }
+}
+//  navLinks
+.navlinks {
+  top: 0%;
+  height: 110vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #0b0b14;
+  transition: all 500ms ease-in-out;
+  // overflow: hidden;
+
+  ul {
+    list-style: none;
+    padding: none;
+    margin: none;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    li {
+      width: 30%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin: 0.2rem;
+      position: relative;
+
+      &::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 50%;
+        width: 0%;
+        height: 5px;
+        transition: all 350ms ease-in-out;
+      }
+
+      a {
+        text-decoration: none;
+        font-family: "Alfa Slab One", cursive;
+        font-size: 3.5rem;
+        color: #fff;
+        letter-spacing: 0.3rem;
+        margin-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #0b0b14;
+        position: relative;
+        transition: all 500ms ease-in-out;
+        opacity: 0;
+      }
+
+      a.active {
+        opacity: 1;
+      }
+    }
+
+    li:hover {
+      &::before {
+        content: "";
+        position: absolute;
+        height: 5px;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        background-color: #d85306;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1024px) {
