@@ -716,5 +716,35 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  // 1450px
+  .header {
+    .head {
+      .img-Text-Wrap {
+        .text-Wrap {
+          width: 80%;
+          left: 15px;
+
+          .text-Wrapper {
+            .text-One {
+              font-size: 2rem;
+            }
+
+            .text-Two {
+              font-size: 2rem;
+            }
+          }
+        }
+
+        .button-Text-Wrap {
+          .button-Text {
+            font-size: 0.7rem;
+          }
+
+          .header-button {
+            padding: 7px 25px;
+            font-size: 7px;
+          }
+        }
+      }
+    }
+  }
 }
