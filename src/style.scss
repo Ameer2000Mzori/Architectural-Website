@@ -785,6 +785,23 @@ body {
         color: #dba81b;
         font-weight: 100;
       }
+
+      .about-Left-Button {
+        padding: 15px 50px;
+        background-color: transparent;
+        border: solid #dba81b 2px;
+        font-family: $fontThree;
+        font-size: 15px;
+        color: #dba81b;
+        transition: all 150ms ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #0b0b14;
+          color: white;
+          border: solid white 2px;
+        }
+      }
     }
   }
 }
