@@ -842,3 +842,63 @@ body {
   width: 7%;
   background-color: #dba81b;
 }
+
+@media screen and (max-width: 1440px) {
+  .about .about-Left-Side .left-Wrap .about-Left-Text-1 {
+    font-size: 2.3rem;
+  }
+
+  .about .about-Left-Side .left-Wrap .about-Left-Text-2 {
+    font-size: 0.7rem;
+  }
+
+  .about .about-Left-Side .left-Wrap .about-Left-Button {
+    padding: 15px 50px;
+    font-size: 16px;
+  }
+
+  .about .about-Right-Side .right-Wrap .right-Image-Wrap {
+    height: 400px;
+    width: 400px;
+  }
+
+  .about .about-Right-Side .right-Wrap .right-Image-Wrap .image-Right-About {
+    top: 30px;
+    left: -30px;
+    height: 350px;
+    width: 480px;
+  }
+
+  .about .about-Right-Side .right-Wrap .right-Image-Wrap .image-Box-Bg {
+    top: 70px;
+    right: -15px;
+    height: 300px;
+    width: 450px;
+    border: 1rem solid #555;
+  }
+
+  .about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-1 {
+    font-family: "Alfa Slab One", cursive;
+    font-size: 3rem;
+    color: #555;
+  }
+
+  .about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-2 {
+    font-family: "Abel", sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: white;
+  }
+
+  .about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-1,
+  .about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .right-Text-Wrap-Left .right-Text-Wrap-Left-2 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .about .about-Right-Side .right-Wrap .right-Text-Bottom-Wrap .decoration-Gold-Strip {
+    height: 100%;
+    width: 4%;
+    background-color: #dba81b;
+  }
+}
