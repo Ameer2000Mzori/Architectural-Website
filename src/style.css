@@ -252,7 +252,7 @@ body {
 }
 
 .navlinks ul li {
-  width: 30%;
+  width: 50%;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   margin: 0.2rem;
@@ -326,12 +326,71 @@ body {
   }
 
   .navlinks ul li {
-    width: 40%;
+    width: 60%;
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
   .navlinks ul li a {
     font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    height: 8%;
+  }
+
+  .navbar .left-Side-Wrap .navbrand-Wrap {
+    width: 50%;
+  }
+
+  .navbar .left-Side-Wrap .navbrand-Wrap .logo-Wrap {
+    height: 30px;
+    width: 30px;
+  }
+
+  .navbar .left-Side-Wrap .navbrand-Wrap .text-Wrap .nav-Brand-Text {
+    font-size: 0.6rem;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap {
+    width: 60%;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap {
+    width: 170px;
+    height: 35px;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input {
+    padding-left: 35px;
+    border-radius: 5px;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input::placeholder {
+    font-weight: 300;
+    font-size: 0.5rem;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap {
+    width: 40px;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap {
+    height: 35px;
+    width: 35px;
+  }
+
+  .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap .bars {
+    height: 1px;
+  }
+
+  .navlinks ul li {
+    width: 60%;
+  }
+
+  .navlinks ul li a {
+    font-size: 2rem;
   }
 }
