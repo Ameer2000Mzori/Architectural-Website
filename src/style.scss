@@ -801,6 +801,10 @@ body {
           color: white;
           border: solid white 2px;
         }
+
+        &:active {
+          transform: scale(0.9);
+        }
       }
     }
   }
