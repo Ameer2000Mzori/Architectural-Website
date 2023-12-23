@@ -34,13 +34,13 @@ const runEffect = () => {
     }, 400);
     console.log(elementsCount);
   } else {
-    elementsCount = 0;
-    navlinkEl.classList.add("active");
     aElements.forEach((aElement) => {
       if (aElement.classList.contains("active")) {
         aElement.classList.remove("active");
       }
     });
+    elementsCount = 0;
+    navlinkEl.classList.add("active");
   }
 };
 

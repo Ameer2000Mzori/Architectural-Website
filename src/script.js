@@ -34,13 +34,13 @@ var runEffect = function () {
         console.log(elementsCount);
     }
     else {
-        elementsCount = 0;
-        navlinkEl.classList.add("active");
         aElements.forEach(function (aElement) {
             if (aElement.classList.contains("active")) {
                 aElement.classList.remove("active");
             }
         });
+        elementsCount = 0;
+        navlinkEl.classList.add("active");
     }
 };
 burgerMenuBtn.addEventListener("click", runEffect);
