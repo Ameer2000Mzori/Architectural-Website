@@ -30,7 +30,7 @@ body {
 
     .navbrand-Wrap {
       padding: 0;
-      width: 50%;
+      width: 80%;
       height: 100%;
       display: flex;
       flex-direction: row;
@@ -102,10 +102,10 @@ body {
       display: flex;
       text-align: start;
       align-items: center;
-      justify-content: space-between;
+      justify-content: flex-end;
       position: relative;
       gap: 13px;
-      width: 50%;
+      width: 80%;
       height: 100%;
 
       .search-Wrap {
@@ -493,16 +493,58 @@ body {
 }
 // header
 .header {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   text-align: center;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
+  background-color: #202020;
+  z-index: -100;
+  position: relative;
   flex-direction: column;
 
   .head {
-    height: 85%;
-    width: 75%;
+    height: 75%;
+    width: 90%;
+
+    .img-Text-Wrap {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -15;
+
+      .img-Wrap {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -10;
+        width: 100%;
+        height: 100%;
+
+        .blackBg-Cover {
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: -10;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(43, 42, 42, 0.527);
+        }
+
+        .header-Img {
+          background-image: url("./assets/landing-bg.jpg");
+          background-position: center;
+          position: absolute;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          z-index: -240;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+    }
   }
 }
