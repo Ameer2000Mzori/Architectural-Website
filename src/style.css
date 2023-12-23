@@ -438,6 +438,11 @@ body {
     font-size: 0.5rem;
   }
 
+  .navlinks ul li {
+    margin: 5px;
+    width: 80%;
+  }
+
   .navlinks ul li a {
     font-size: 1.2rem;
   }
