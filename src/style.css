@@ -507,3 +507,46 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.header .head .img-Text-Wrap .text-Wrap {
+  position: absolute;
+  left: 65px;
+  bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  height: 300px;
+}
+
+.header .head .img-Text-Wrap .text-Wrap .text-Wrapper {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+
+.header .head .img-Text-Wrap .text-Wrap .text-Wrapper .text-One {
+  font-size: 6rem;
+  font-family: "Alfa Slab One", cursive;
+  color: #dba81b;
+  gap: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+.header .head .img-Text-Wrap .text-Wrap .text-Wrapper .text-Two {
+  font-size: 6rem;
+  font-family: "Abel", sans-serif;
+  color: white;
+  padding: 0;
+  margin: 0;
+  gap: 1px;
+}
