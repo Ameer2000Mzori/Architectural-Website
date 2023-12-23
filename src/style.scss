@@ -783,15 +783,16 @@ body {
         font-size: 1rem;
         font-family: $fontThree;
         color: #dba81b;
+        width: 50%;
         font-weight: 100;
       }
 
       .about-Left-Button {
         padding: 15px 50px;
         background-color: transparent;
-        border: solid #dba81b 2px;
+        border: solid #dba81b 5px;
         font-family: $fontThree;
-        font-size: 15px;
+        font-size: 20px;
         color: #dba81b;
         transition: all 150ms ease-in-out;
 
@@ -799,7 +800,7 @@ body {
           cursor: pointer;
           background-color: #0b0b14;
           color: white;
-          border: solid white 2px;
+          border: solid white 5px;
         }
 
         &:active {
