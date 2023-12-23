@@ -750,7 +750,7 @@ body {
 }
 // about
 .about {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -820,5 +820,22 @@ body {
     align-items: center;
     width: 45%;
     height: 100%;
+
+    .right-Wrap {
+      position: relative;
+      height: 100%;
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
+      .right-Image-Wrap {
+        position: relative;
+        height: 500px;
+        width: 500px;
+      }
+    }
   }
 }
