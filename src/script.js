@@ -10,6 +10,7 @@ var runEffect = function () {
     if (navlinkEl.classList.contains("active")) {
         navlinkEl.classList.remove("active");
         burgerMenuBtn.classList.add("active");
+        burgerMenuBtn.style.pointerEvents = "none";
         var giveClassInt_1 = setInterval(function () {
             if (elementsCount < aElements.length) {
                 aElements[elementsCount].classList.add("active");
@@ -18,9 +19,10 @@ var runEffect = function () {
                 console.log("finished");
                 setTimeout(function () {
                     clearInterval(giveClassInt_1);
+                    burgerMenuBtn.style.pointerEvents = "";
                 }, 0);
             }
-        }, 50);
+        }, 100);
         var increaseNum_1 = setInterval(function () {
             if (elementsCount < aElements.length) {
                 elementsCount++;
@@ -31,7 +33,7 @@ var runEffect = function () {
                     clearInterval(increaseNum_1);
                 }, 0);
             }
-        }, 100);
+        }, 150);
         console.log(elementsCount);
     }
     else {
