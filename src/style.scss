@@ -846,11 +846,22 @@ body {
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
-          top: 5px;
-          left: 65px;
+          top: 30px;
+          left: -20px;
           position: absolute;
-          height: 460px;
-          width: 460px;
+          height: 350px;
+          width: 600px;
+          z-index: 2;
+        }
+
+        .image-Box-Bg {
+          top: 70px;
+          z-index: 1;
+          right: 15px;
+          position: absolute;
+          height: 300px;
+          width: 500px;
+          border: 3rem solid #555;
         }
       }
     }
