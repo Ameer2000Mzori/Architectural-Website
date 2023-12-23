@@ -7,30 +7,40 @@ var elementsCount = 0;
 // functions
 // event linsters
 var runEffect = function () {
-    var giveClassInt = setInterval(function () {
-        if (elementsCount < aElements.length) {
-            aElements[elementsCount].classList.add("acitve");
-        }
-        else {
-            console.log("finished");
-            setTimeout(function () {
-                clearInterval(giveClassInt);
-            }, 0);
-        }
-    }, 1000);
-    var increaseNum = setInterval(function () {
-        if (elementsCount <= aElements.length) {
-            elementsCount++;
-            console.log(elementsCount);
-        }
-        else {
-            setTimeout(function () {
-                clearInterval(increaseNum);
-            }, 0);
-        }
-    }, 1500);
-    console.log(elementsCount);
+    if (navlinkEl.classList.contains("active")) {
+        navlinkEl.classList.remove("active");
+        var giveClassInt_1 = setInterval(function () {
+            if (elementsCount < aElements.length) {
+                aElements[elementsCount].classList.add("active");
+            }
+            else {
+                console.log("finished");
+                setTimeout(function () {
+                    clearInterval(giveClassInt_1);
+                }, 0);
+            }
+        }, 800);
+        var increaseNum_1 = setInterval(function () {
+            if (elementsCount < aElements.length) {
+                elementsCount++;
+                console.log(elementsCount);
+            }
+            else {
+                setTimeout(function () {
+                    clearInterval(increaseNum_1);
+                }, 0);
+            }
+        }, 1000);
+        console.log(elementsCount);
+    }
+    else {
+        navlinkEl.classList.add("active");
+        elementsCount = 0;
+        aElements.forEach(function (aElement) {
+            if (aElement.classList.contains("active")) {
+                aElement.classList.remove("active");
+            }
+        });
+    }
 };
-// aElements.forEach((aElement) => {});
-// const giveClassInt = setInterval(runEffect, 10000);
 burgerMenuBtn.addEventListener("click", runEffect);

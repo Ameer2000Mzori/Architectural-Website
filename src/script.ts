@@ -9,30 +9,39 @@ let elementsCount = 0;
 
 // event linsters
 const runEffect = () => {
-  const giveClassInt = setInterval(() => {
-    if (elementsCount < aElements.length) {
-      aElements[elementsCount].classList.add("acitve");
-    } else {
-      console.log("finished");
-      setTimeout(() => {
-        clearInterval(giveClassInt);
-      }, 0);
-    }
-  }, 1000);
+  if (navlinkEl.classList.contains("active")) {
+    navlinkEl.classList.remove("active");
+    const giveClassInt = setInterval(() => {
+      if (elementsCount < aElements.length) {
+        aElements[elementsCount].classList.add("active");
+      } else {
+        console.log("finished");
+        setTimeout(() => {
+          clearInterval(giveClassInt);
+        }, 0);
+      }
+    }, 800);
 
-  const increaseNum = setInterval(() => {
-    if (elementsCount <= aElements.length) {
-      elementsCount++;
-      console.log(elementsCount);
-    } else {
-      setTimeout(() => {
-        clearInterval(increaseNum);
-      }, 0);
-    }
-  }, 1500);
-  console.log(elementsCount);
+    const increaseNum = setInterval(() => {
+      if (elementsCount < aElements.length) {
+        elementsCount++;
+        console.log(elementsCount);
+      } else {
+        setTimeout(() => {
+          clearInterval(increaseNum);
+        }, 0);
+      }
+    }, 1000);
+    console.log(elementsCount);
+  } else {
+    navlinkEl.classList.add("active");
+    elementsCount = 0;
+    aElements.forEach((aElement) => {
+      if (aElement.classList.contains("active")) {
+        aElement.classList.remove("active");
+      }
+    });
+  }
 };
 
-// aElements.forEach((aElement) => {});
-// const giveClassInt = setInterval(runEffect, 10000);
 burgerMenuBtn.addEventListener("click", runEffect);
