@@ -2,12 +2,13 @@
 const aElements = document.querySelectorAll("a");
 const burgerMenuBtn = document.getElementsByClassName("burger-Menu-Wrap")[0];
 const navlinkEl = document.getElementsByClassName("navlinks")[0];
+
 // gelobal varibales
 let elementsCount = 0;
 
 // functions
 
-// event linsters
+// run effect function, navbar, navlinks, animation burgermenu
 const runEffect = () => {
   if (navlinkEl.classList.contains("active")) {
     navlinkEl.classList.remove("active");
@@ -48,4 +49,5 @@ const runEffect = () => {
   }
 };
 
+// event linsters
 burgerMenuBtn.addEventListener("click", runEffect);

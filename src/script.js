@@ -5,7 +5,7 @@ var navlinkEl = document.getElementsByClassName("navlinks")[0];
 // gelobal varibales
 var elementsCount = 0;
 // functions
-// event linsters
+// run effect function, navbar, navlinks, animation burgermenu
 var runEffect = function () {
     if (navlinkEl.classList.contains("active")) {
         navlinkEl.classList.remove("active");
@@ -47,4 +47,5 @@ var runEffect = function () {
         burgerMenuBtn.classList.remove("active");
     }
 };
+// event linsters
 burgerMenuBtn.addEventListener("click", runEffect);
