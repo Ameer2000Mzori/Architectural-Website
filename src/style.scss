@@ -678,7 +678,41 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-  // 1450px
+  .header {
+    .head {
+      .img-Text-Wrap {
+        .text-Wrap {
+          width: 80%;
+          left: 5px;
+
+          .text-Wrapper {
+            text-align: start;
+            align-items: center;
+            justify-content: flex-start;
+
+            .text-One {
+              font-size: 3rem;
+            }
+
+            .text-Two {
+              font-size: 3rem;
+            }
+          }
+        }
+
+        .button-Text-Wrap {
+          .button-Text {
+            font-size: 0.7rem;
+          }
+
+          .header-button {
+            padding: 10px 35px;
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {

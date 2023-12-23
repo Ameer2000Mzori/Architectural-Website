@@ -622,3 +622,33 @@ body {
     font-size: 13px;
   }
 }
+
+@media screen and (max-width: 850px) {
+  .header .head .img-Text-Wrap .text-Wrap {
+    width: 80%;
+    left: 5px;
+  }
+
+  .header .head .img-Text-Wrap .text-Wrap .text-Wrapper {
+    text-align: start;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .header .head .img-Text-Wrap .text-Wrap .text-Wrapper .text-One {
+    font-size: 3rem;
+  }
+
+  .header .head .img-Text-Wrap .text-Wrap .text-Wrapper .text-Two {
+    font-size: 3rem;
+  }
+
+  .header .head .img-Text-Wrap .button-Text-Wrap .button-Text {
+    font-size: 0.7rem;
+  }
+
+  .header .head .img-Text-Wrap .button-Text-Wrap .header-button {
+    padding: 10px 35px;
+    font-size: 10px;
+  }
+}
