@@ -154,15 +154,38 @@ body {
         align-items: center;
         justify-content: space-evenly;
         cursor: pointer;
+        gap: 25px;
 
         .bars {
           height: 2px;
           width: 100%;
           background-color: #ccc;
+          position: absolute;
+        }
+
+        .bar-One {
+          top: 25%;
+          transition: all 500ms ease-in-out;
+          position: absolute;
+          left: 0;
+        }
+
+        .bar-Two {
+          position: absolute;
+          transition: all 500ms ease-in-out;
+          top: 50%;
+          left: 0;
+        }
+
+        .bar-Three {
+          left: 0;
+          position: absolute;
+          transition: all 500ms ease-in-out;
+          top: 75%;
         }
       }
 
-      .burger-Menu-Wrap.acitve {
+      .burger-Menu-Wrap.active {
         .bar-One {
           transform-origin: center left;
           padding: 0;

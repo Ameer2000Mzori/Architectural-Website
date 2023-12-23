@@ -9,6 +9,7 @@ var elementsCount = 0;
 var runEffect = function () {
     if (navlinkEl.classList.contains("active")) {
         navlinkEl.classList.remove("active");
+        burgerMenuBtn.classList.add("active");
         var giveClassInt_1 = setInterval(function () {
             if (elementsCount < aElements.length) {
                 aElements[elementsCount].classList.add("active");
@@ -19,7 +20,7 @@ var runEffect = function () {
                     clearInterval(giveClassInt_1);
                 }, 0);
             }
-        }, 300);
+        }, 50);
         var increaseNum_1 = setInterval(function () {
             if (elementsCount < aElements.length) {
                 elementsCount++;
@@ -30,7 +31,7 @@ var runEffect = function () {
                     clearInterval(increaseNum_1);
                 }, 0);
             }
-        }, 400);
+        }, 100);
         console.log(elementsCount);
     }
     else {
@@ -41,6 +42,7 @@ var runEffect = function () {
         });
         elementsCount = 0;
         navlinkEl.classList.add("active");
+        burgerMenuBtn.classList.remove("active");
     }
 };
 burgerMenuBtn.addEventListener("click", runEffect);
