@@ -764,6 +764,22 @@ body {
 
 .about .about-Right-Side .right-Wrap .right-Image-Wrap {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
   height: 500px;
   width: 500px;
+}
+
+.about .about-Right-Side .right-Wrap .right-Image-Wrap .image-Right-About {
+  background-image: url("./assets/about.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 5px;
+  left: 65px;
+  position: absolute;
+  height: 460px;
+  width: 460px;
 }
