@@ -19,7 +19,7 @@ body {
 
 .navbar .left-Side-Wrap {
   height: 100%;
-  width: 100%;
+  width: 50%;
 }
 
 .navbar .left-Side-Wrap .navbrand-Wrap {
@@ -80,7 +80,7 @@ body {
 }
 
 .navbar .right-Side-Wrap {
-  width: 60%;
+  width: 50%;
   height: 100%;
   display: flex;
   text-align: center;
@@ -92,9 +92,10 @@ body {
   display: flex;
   text-align: start;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   position: relative;
-  width: 70%;
+  gap: 13px;
+  width: 50%;
   height: 100%;
 }
 
@@ -134,13 +135,22 @@ body {
   position: absolute;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap {
+  position: relative;
+  width: 50px;
+  height: 100%;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap {
   position: absolute;
   top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  right: 1rem;
   z-index: 5;
   height: 45px;
+  margin: 5px;
   width: 45px;
   overflow: hidden;
   display: flex;
@@ -152,35 +162,35 @@ body {
   gap: 25px;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap .bars {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap .bars {
   height: 2px;
   width: 100%;
   background-color: #ccc;
   position: absolute;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap .bar-One {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap .bar-One {
   top: 25%;
   transition: all 500ms ease-in-out;
   position: absolute;
   left: 0;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap .bar-Two {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap .bar-Two {
   position: absolute;
   transition: all 500ms ease-in-out;
   top: 50%;
   left: 0;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap .bar-Three {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap .bar-Three {
   left: 0;
   position: absolute;
   transition: all 500ms ease-in-out;
   top: 75%;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap.active .bar-One {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap.active .bar-One {
   transform-origin: center left;
   padding: 0;
   margin: 0;
@@ -193,7 +203,7 @@ body {
   background-color: #ccc;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap.active .bar-Two {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap.active .bar-Two {
   height: 2px;
   background-color: #ccc;
   left: 0;
@@ -202,7 +212,7 @@ body {
   top: 50%;
 }
 
-.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap.active .bar-Three {
+.navbar .right-Side-Wrap .search-Menu-Wrap .burger-Wrap .burger-Menu-Wrap.active .bar-Three {
   transform-origin: center left;
   padding: 0;
   margin: 0;

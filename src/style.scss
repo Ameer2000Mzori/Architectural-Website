@@ -22,7 +22,7 @@ body {
 
   .left-Side-Wrap {
     height: 100%;
-    width: 100%;
+    width: 50%;
 
     .navbrand-Wrap {
       padding: 0;
@@ -88,7 +88,7 @@ body {
   }
 
   .right-Side-Wrap {
-    width: 60%;
+    width: 50%;
     height: 100%;
     display: flex;
     text-align: center;
@@ -99,9 +99,10 @@ body {
       display: flex;
       text-align: start;
       align-items: center;
-      justify-content: flex-start;
+      justify-content: space-between;
       position: relative;
-      width: 70%;
+      gap: 13px;
+      width: 50%;
       height: 100%;
 
       .search-Wrap {
@@ -141,86 +142,95 @@ body {
         }
       }
 
-      .burger-Menu-Wrap {
-        position: absolute;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        right: 1rem;
-        z-index: 5;
-        height: 45px;
-        width: 45px;
+      .burger-Wrap {
+        position: relative;
+        width: 50px;
+        height: 100%;
         overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        justify-content: space-evenly;
-        cursor: pointer;
-        gap: 25px;
+        padding: 5px;
 
-        .bars {
-          height: 2px;
-          width: 100%;
-          background-color: #ccc;
-          position: absolute;
-        }
-
-        .bar-One {
-          top: 25%;
-          transition: all 500ms ease-in-out;
-          position: absolute;
-          left: 0;
-        }
-
-        .bar-Two {
-          position: absolute;
-          transition: all 500ms ease-in-out;
-          top: 50%;
-          left: 0;
-        }
-
-        .bar-Three {
-          left: 0;
-          position: absolute;
-          transition: all 500ms ease-in-out;
-          top: 75%;
-        }
-      }
-
-      .burger-Menu-Wrap.active {
-        .bar-One {
-          transform-origin: center left;
-          padding: 0;
-          margin: 0;
-          left: 0;
-          top: 50%;
-          position: absolute;
-          transform: rotate(-30deg);
-          height: 2px;
-          width: 50%;
-          background-color: #ccc;
-        }
-
-        .bar-Two {
-          height: 2px;
-          background-color: #ccc;
-          left: 0;
-          width: 150%;
+        .burger-Menu-Wrap {
           position: absolute;
           top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 5;
+          height: 45px;
+          margin: 5px;
+          width: 45px;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          justify-content: space-evenly;
+          cursor: pointer;
+          gap: 25px;
+
+          .bars {
+            height: 2px;
+            width: 100%;
+            background-color: #ccc;
+            position: absolute;
+          }
+
+          .bar-One {
+            top: 25%;
+            transition: all 500ms ease-in-out;
+            position: absolute;
+            left: 0;
+          }
+
+          .bar-Two {
+            position: absolute;
+            transition: all 500ms ease-in-out;
+            top: 50%;
+            left: 0;
+          }
+
+          .bar-Three {
+            left: 0;
+            position: absolute;
+            transition: all 500ms ease-in-out;
+            top: 75%;
+          }
         }
 
-        .bar-Three {
-          transform-origin: center left;
-          padding: 0;
-          margin: 0;
-          left: 0;
-          top: 50%;
-          position: absolute;
-          transform: rotate(30deg);
-          height: 2px;
-          width: 50%;
-          background-color: #ccc;
+        .burger-Menu-Wrap.active {
+          .bar-One {
+            transform-origin: center left;
+            padding: 0;
+            margin: 0;
+            left: 0;
+            top: 50%;
+            position: absolute;
+            transform: rotate(-30deg);
+            height: 2px;
+            width: 50%;
+            background-color: #ccc;
+          }
+
+          .bar-Two {
+            height: 2px;
+            background-color: #ccc;
+            left: 0;
+            width: 150%;
+            position: absolute;
+            top: 50%;
+          }
+
+          .bar-Three {
+            transform-origin: center left;
+            padding: 0;
+            margin: 0;
+            left: 0;
+            top: 50%;
+            position: absolute;
+            transform: rotate(30deg);
+            height: 2px;
+            width: 50%;
+            background-color: #ccc;
+          }
         }
       }
     }
