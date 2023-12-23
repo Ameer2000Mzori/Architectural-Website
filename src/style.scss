@@ -264,9 +264,10 @@ body {
 
     li {
       width: 30%;
-      padding-left: 1rem;
-      padding-right: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
       margin: 0.2rem;
+      text-align: center;
       position: relative;
 
       &::before {
@@ -318,7 +319,7 @@ body {
 }
 
 // navbar responsvness:
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1450px) {
   .navbar {
     height: 8%;
 
@@ -333,7 +334,7 @@ body {
 
         .text-Wrap {
           .nav-Brand-Text {
-            font-size: 1rem;
+            font-size: 0.9rem;
           }
         }
       }
@@ -345,83 +346,22 @@ body {
       }
     }
   }
-}
-//  navLinks
-.navlinks {
-  top: 0%;
-  height: 110vh;
-  width: 100%;
-  position: absolute;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  background-color: #0b0b14;
-  transition: all 500ms ease-in-out;
-  // overflow: hidden;
 
-  ul {
-    list-style: none;
-    padding: none;
-    margin: none;
-    height: 100%;
-    display: flex;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  .navlinks {
+    ul {
+      li {
+        width: 40%;
+        padding-left: 2rem;
+        padding-right: 2rem;
 
-    li {
-      width: 30%;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      margin: 0.2rem;
-      position: relative;
-
-      &::before {
-        position: absolute;
-        content: "";
-        top: 50%;
-        left: 50%;
-        width: 0%;
-        height: 5px;
-        transition: all 350ms ease-in-out;
-      }
-
-      a {
-        text-decoration: none;
-        font-family: "Alfa Slab One", cursive;
-        font-size: 3.5rem;
-        color: #fff;
-        letter-spacing: 0.3rem;
-        margin-bottom: 1rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        background-color: #0b0b14;
-        position: relative;
-        transition: all 500ms ease-in-out;
-        opacity: 0;
-      }
-
-      a.active {
-        opacity: 1;
-      }
-    }
-
-    li:hover {
-      &::before {
-        content: "";
-        position: absolute;
-        height: 5px;
-        width: 100%;
-        top: 50%;
-        left: 0;
-        background-color: #d85306;
+        a {
+          font-size: 3rem;
+        }
       }
     }
   }
 }
+//  navLinks
 
 @media screen and (max-width: 1024px) {
   // 1024px
