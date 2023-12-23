@@ -90,19 +90,19 @@ body {
 
 .navbar .right-Side-Wrap .search-Menu-Wrap {
   display: flex;
-  text-align: center;
+  text-align: start;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   position: relative;
   width: 70%;
   height: 100%;
-  gap: 55px;
 }
 
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap {
   position: relative;
   width: 370px;
   height: 40px;
+  margin: 5px;
 }
 
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input {
@@ -136,11 +136,13 @@ body {
 
 .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap {
   position: absolute;
-  top: 30px;
+  top: 50%;
+  transform: translate(-50%, -50%);
   right: 1rem;
   z-index: 5;
   height: 45px;
   width: 45px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   text-align: center;
