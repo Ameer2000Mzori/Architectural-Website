@@ -175,16 +175,43 @@ body {
 }
 
 .navlinks ul li {
-  padding: 1rem;
-  margin: 1rem;
+  width: 30%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0.2rem;
+  position: relative;
+}
+
+.navlinks ul li::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 50%;
+  width: 0%;
+  height: 5px;
+  transition: all 450ms ease-in-out;
 }
 
 .navlinks ul li a {
   text-decoration: none;
   font-family: "Alfa Slab One", cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #fff;
   letter-spacing: 0.3rem;
   margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #0b0b14;
   position: relative;
+  transition: all 450ms ease-in-out;
+}
+
+.navlinks ul li:hover::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  background-color: #dba81b;
 }
