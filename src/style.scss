@@ -141,6 +141,10 @@ body {
       }
 
       .burger-Menu-Wrap {
+        position: fixed;
+        top: 25px;
+        right: 25px;
+        z-index: 5;
         height: 45px;
         width: 45px;
         display: flex;
@@ -161,9 +165,10 @@ body {
 }
 //  navLinks
 .navlinks {
+  top: 0%;
+  height: 110vh;
   width: 100%;
   position: absolute;
-  height: 100%;
   display: flex;
   text-align: center;
   align-items: center;
