@@ -217,6 +217,12 @@ body {
         padding-right: 1rem;
         background-color: #0b0b14;
         position: relative;
+        transition: all 550ms ease-in-out;
+        opacity: 0;
+      }
+
+      a.acitve {
+        opacity: 1;
       }
     }
 
@@ -234,6 +240,6 @@ body {
   }
 }
 
-.navlinks:hover {
+.navlinks.active {
   transform: translateY(-100%);
 }
