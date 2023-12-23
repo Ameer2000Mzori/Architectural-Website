@@ -20,7 +20,7 @@ const runEffect = () => {
           clearInterval(giveClassInt);
         }, 0);
       }
-    }, 800);
+    }, 300);
 
     const increaseNum = setInterval(() => {
       if (elementsCount < aElements.length) {
@@ -31,7 +31,7 @@ const runEffect = () => {
           clearInterval(increaseNum);
         }, 0);
       }
-    }, 1000);
+    }, 400);
     console.log(elementsCount);
   } else {
     navlinkEl.classList.add("active");

@@ -19,7 +19,7 @@ var runEffect = function () {
                     clearInterval(giveClassInt_1);
                 }, 0);
             }
-        }, 800);
+        }, 300);
         var increaseNum_1 = setInterval(function () {
             if (elementsCount < aElements.length) {
                 elementsCount++;
@@ -30,7 +30,7 @@ var runEffect = function () {
                     clearInterval(increaseNum_1);
                 }, 0);
             }
-        }, 1000);
+        }, 400);
         console.log(elementsCount);
     }
     else {

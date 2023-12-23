@@ -93,6 +93,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: start;
+  position: relative;
   width: 70%;
   height: 100%;
   gap: 55px;
@@ -107,7 +108,7 @@ body {
 .navbar .right-Side-Wrap .search-Menu-Wrap .search-Wrap .text-Input {
   top: 0;
   left: 0;
-  width: 100%;
+  width: 90%;
   height: 90%;
   background-color: #3e3e41;
   color: white;
@@ -134,9 +135,9 @@ body {
 }
 
 .navbar .right-Side-Wrap .search-Menu-Wrap .burger-Menu-Wrap {
-  position: fixed;
+  position: absolute;
   top: 30px;
-  right: 9rem;
+  right: 1rem;
   z-index: 5;
   height: 45px;
   width: 45px;
@@ -164,7 +165,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #0b0b14;
-  transition: all 1000ms ease-in-out;
+  transition: all 500ms ease-in-out;
 }
 
 .navlinks ul {
@@ -209,7 +210,7 @@ body {
   padding-right: 1rem;
   background-color: #0b0b14;
   position: relative;
-  transition: all 550ms ease-in-out;
+  transition: all 150ms ease-in-out;
   opacity: 0;
 }
 
