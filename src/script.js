@@ -84,4 +84,21 @@ var projectData = [
     },
 ];
 // functions
+var listData = function () {
+    // for each func to loop and get data from arry of object
+};
 // event lisnters
+// look up html tree concept
+// <div class="project-Card">
+//   <div class="Project-Img"></div>
+//   <div class="project-Hiden-Ifo-Box">
+//     <div class="project-Text-Wrap">
+//       <h3 class="project-Title-Text-1">Your Dream House is here</h3>
+//       <p class="project-Title-Text-2">
+//         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, vero?
+//       </p>
+//     </div>
+//     <div class="line-Left"></div>
+//     <div class="line-top"></div>
+//   </div>
+// </div>;
