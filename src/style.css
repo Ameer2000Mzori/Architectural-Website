@@ -1167,7 +1167,7 @@ body {
   transition: all 550ms ease-in-out;
 }
 
-.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .line-top {
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .line-Top {
   width: 3px;
   height: 0%;
   background-color: #f1b510;
@@ -1186,6 +1186,6 @@ body {
   width: 100%;
 }
 
-.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box:hover .line-top {
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box:hover .line-Top {
   height: 100%;
 }
