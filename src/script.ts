@@ -1,3 +1,4 @@
+//    NAVBAR AND NAVLINKS LOGIC //
 // selecting elements
 const aElements = document.querySelectorAll("a");
 const burgerMenuBtn = document.getElementsByClassName("burger-Menu-Wrap")[0];
@@ -51,3 +52,49 @@ const runEffect = () => {
 
 // event linsters
 burgerMenuBtn.addEventListener("click", runEffect);
+//
+//    Projects Cards Logic //
+//
+
+// selecting our elements
+const projectsCardsWrap = document.getElementsByClassName(
+  "projects-Cards-Wrap"
+)[0];
+
+// global varibales
+const projectData = [
+  {
+    img: "./assets/card1.jpg",
+    title: "Your Dream House is here",
+    description:
+      "  Lorem ipsum dolor, sit amet consectetur adipisicing elit.Unde, vero?",
+  },
+  {
+    img: "./assets/card2.jpg",
+    title: "Your Dream House is here",
+    description:
+      "  Lorem ipsum dolor, sit amet consectetur adipisicing elit.Unde, vero?",
+  },
+  {
+    img: "./assets/card3.jpg",
+    title: "Your Dream House is here",
+    description:
+      "  Lorem ipsum dolor, sit amet consectetur adipisicing elit.Unde, vero?",
+  },
+  {
+    img: "./assets/card4.jpg",
+    title: "Your Dream House is here",
+    description:
+      "  Lorem ipsum dolor, sit amet consectetur adipisicing elit.Unde, vero?",
+  },
+  {
+    img: "./assets/card5.jpg",
+    title: "Your Dream House is here",
+    description:
+      "  Lorem ipsum dolor, sit amet consectetur adipisicing elit.Unde, vero?",
+  },
+];
+
+// functions
+
+// event lisnters
