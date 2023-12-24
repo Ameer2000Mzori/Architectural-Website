@@ -104,7 +104,9 @@ const listData = () => {
     projectCard.classList.add("project-Card");
 
     const ProjectImg = document.createElement("div");
+
     ProjectImg.classList.add("Project-Img");
+    ProjectImg.style.backgroundImage = `url(${data.img})`;
     projectCard.appendChild(ProjectImg);
 
     const hiddenInfoBox = document.createElement("div");
@@ -117,10 +119,12 @@ const listData = () => {
 
     const pTitleText1 = document.createElement("h3");
     pTitleText1.classList.add("project-Title-Text-1");
+    pTitleText1.textContent = data.title;
     projectTextWrap.appendChild(pTitleText1);
 
     const pTitleText2 = document.createElement("p");
     pTitleText2.classList.add("project-Title-Text-2");
+    pTitleText2.textContent = data.description;
     projectTextWrap.appendChild(pTitleText2);
 
     const lineLeft = document.createElement("div");

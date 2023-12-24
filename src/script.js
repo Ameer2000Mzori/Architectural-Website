@@ -92,6 +92,7 @@ var listData = function () {
         projectCard.classList.add("project-Card");
         var ProjectImg = document.createElement("div");
         ProjectImg.classList.add("Project-Img");
+        ProjectImg.style.backgroundImage = "url(".concat(data.img, ")");
         projectCard.appendChild(ProjectImg);
         var hiddenInfoBox = document.createElement("div");
         hiddenInfoBox.classList.add("project-Hiden-Ifo-Box");
@@ -101,9 +102,11 @@ var listData = function () {
         hiddenInfoBox.appendChild(projectTextWrap);
         var pTitleText1 = document.createElement("h3");
         pTitleText1.classList.add("project-Title-Text-1");
+        pTitleText1.textContent = data.title;
         projectTextWrap.appendChild(pTitleText1);
         var pTitleText2 = document.createElement("p");
         pTitleText2.classList.add("project-Title-Text-2");
+        pTitleText2.textContent = data.description;
         projectTextWrap.appendChild(pTitleText2);
         var lineLeft = document.createElement("div");
         lineLeft.classList.add("line-Left");
