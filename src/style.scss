@@ -1157,7 +1157,6 @@ body {
 }
 // Projects
 .projects {
-  // height: 110vh;
   height: clamp(700px, 100%, 2600px);
   display: flex;
   flex-direction: column;
@@ -1208,7 +1207,6 @@ body {
         position: relative;
 
         .Project-Img {
-          // background-image: url("./assets/card1.jpg");
           height: 100%;
           width: 100%;
           background-position: center;
@@ -1346,4 +1344,12 @@ body {
       }
     }
   }
+}
+// Projects responsvness
+@media screen and (max-width: 1000px) {
+  // 1000px
+}
+
+@media screen and (max-width: 768px) {
+  // 768px
 }
