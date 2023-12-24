@@ -1107,6 +1107,7 @@ body {
   height: 500px;
   width: 300px;
   overflow: hidden;
+  position: relative;
 }
 
 .projects .projects-Wrap .projects-Cards-Wrap .project-Card .Project-Img {
@@ -1116,4 +1117,31 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(62, 62, 65, 0.431372549);
+}
+
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .line-Left {
+  width: 100%;
+  height: 3px;
+  background-color: #f1b510;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .line-top {
+  width: 3px;
+  height: 100%;
+  background-color: #f1b510;
+  position: absolute;
+  top: 0;
+  left: 15px;
 }

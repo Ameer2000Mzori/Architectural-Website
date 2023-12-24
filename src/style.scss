@@ -1204,6 +1204,7 @@ body {
         height: 500px;
         width: 300px;
         overflow: hidden;
+        position: relative;
 
         .Project-Img {
           background-image: url("./assets/card1.jpg");
@@ -1212,6 +1213,33 @@ body {
           background-position: center;
           background-size: cover;
           background-repeat: no-repeat;
+        }
+
+        .project-Hiden-Ifo-Box {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          background-color: #3e3e416e;
+
+          .line-Left {
+            width: 100%;
+            height: 3px;
+            background-color: #f1b510;
+            position: absolute;
+            top: 15px;
+            left: 0;
+          }
+
+          .line-top {
+            width: 3px;
+            height: 100%;
+            background-color: #f1b510;
+            position: absolute;
+            top: 0;
+            left: 15px;
+          }
         }
       }
     }
