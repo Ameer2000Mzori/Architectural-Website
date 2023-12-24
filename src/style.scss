@@ -1163,4 +1163,14 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+
+  .projects-Wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+  }
 }
