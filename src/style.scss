@@ -1767,5 +1767,19 @@ body {
 }
 // contact responsvness
 @media screen and (max-width: 868px) {
-  //868px
+  .contact {
+    height: clamp(10vh, 100%, 15vh);
+
+    .contact-Wrap {
+      flex-direction: column;
+
+      .contact-Left {
+        margin-bottom: 2rem;
+      }
+
+      .contact-Right {
+        margin-bottom: 2rem;
+      }
+    }
+  }
 }
