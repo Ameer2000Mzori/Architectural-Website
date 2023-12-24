@@ -1813,13 +1813,23 @@ body {
       font-family: $fontThree;
       justify-content: center;
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
       text-align: center;
       align-items: center;
+      gap: 15px;
 
       .logo-Wrap {
-        width: 500px;
-        height: 20px;
+        width: 75px;
+        height: 75px;
+        position: relative;
+
+        .Logo-Origin {
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+        }
       }
     }
 
