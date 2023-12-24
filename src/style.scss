@@ -1497,6 +1497,10 @@ body {
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
         padding: 2rem;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: center;
 
         .customer-Img-1 {
           position: absolute;
@@ -1509,6 +1513,30 @@ body {
           width: 250px;
           height: 150px;
           border-radius: 1rem;
+        }
+
+        .customer-text-Wrap-1 {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          height: 90%;
+
+          .customer-Name {
+            font-family: $fontOne;
+            color: #fff;
+            font-size: 2rem;
+            padding: 0;
+            margin: 0;
+          }
+
+          .customer-Roll {
+            font-family: $fontThree;
+            color: #fff;
+            font-weight: 100;
+            font-size: 1rem;
+            padding: 0;
+            margin: 0;
+          }
         }
       }
     }

@@ -1368,6 +1368,10 @@ body {
   box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
   padding: 2rem;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  align-items: center;
 }
 
 .customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-Img-1 {
@@ -1381,4 +1385,28 @@ body {
   width: 250px;
   height: 150px;
   border-radius: 1rem;
+}
+
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 90%;
+}
+
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-Name {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-Roll {
+  font-family: "Abel", sans-serif;
+  color: #fff;
+  font-weight: 100;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
 }
