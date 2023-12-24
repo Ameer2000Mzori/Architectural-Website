@@ -1445,3 +1445,22 @@ body {
     }
   }
 }
+// customers
+.customers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  background-color: #3e3e41;
+
+  .customers-Wrap {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+}
