@@ -990,7 +990,80 @@ body {
 }
 
 @media screen and (max-width: 1000px) {
-  // 1000px
+  .about {
+    .about-Left-Side {
+      text-align: start;
+      align-items: start;
+
+      .left-Wrap {
+        .about-Left-Text-1 {
+          font-size: 1.9rem;
+        }
+
+        .about-Left-Text-2 {
+          font-size: 0.5rem;
+        }
+
+        .about-Left-Button {
+          padding: 15px 50px;
+          font-size: 13px;
+        }
+      }
+    }
+
+    .about-Right-Side {
+      .right-Wrap {
+        .right-Image-Wrap {
+          height: 400px;
+          width: 400px;
+
+          .image-Right-About {
+            top: 10px;
+            left: -40px;
+            height: 230px;
+            width: 400px;
+          }
+
+          .image-Box-Bg {
+            top: 40px;
+            left: -65px;
+            height: 230px;
+            width: 370px;
+            border: 1rem solid #555;
+          }
+        }
+
+        .right-Text-Bottom-Wrap {
+          .right-Text-Wrap-Left {
+            .right-Text-Wrap-Left-1 {
+              font-family: $fontTwo;
+              font-size: 1.5rem;
+              color: #555;
+            }
+
+            .right-Text-Wrap-Left-2 {
+              font-family: $fontThree;
+              font-weight: 300;
+              font-size: 1.5rem;
+              color: white;
+            }
+
+            .right-Text-Wrap-Left-1,
+            .right-Text-Wrap-Left-2 {
+              padding: 0;
+              margin: 0;
+            }
+          }
+
+          .decoration-Gold-Strip {
+            height: 100%;
+            width: 3%;
+            background-color: #dba81b;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
