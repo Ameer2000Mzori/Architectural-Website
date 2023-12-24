@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: #202020;
 }
 
 .navbar {
@@ -1735,4 +1736,20 @@ body {
   color: white;
   font-weight: 100;
   font-family: "Abel", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    margin-top: 2rem;
+    height: clamp(10vh, 100%, 20vh);
+  }
+
+  .footer .footer-Wrap {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .footer .footer-Wrap .footer-Right .footer-Right-Text {
+    font-size: 0.8rem;
+  }
 }
