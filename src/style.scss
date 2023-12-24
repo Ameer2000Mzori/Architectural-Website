@@ -1496,6 +1496,20 @@ body {
         border-radius: 0.5rem;
         box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
         padding: 2rem;
+        position: relative;
+
+        .customer-Img-1 {
+          position: absolute;
+          background-image: url("./assets/customer1.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          top: -75px;
+          right: 25px;
+          width: 250px;
+          height: 150px;
+          border-radius: 1rem;
+        }
       }
     }
   }
