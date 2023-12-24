@@ -1594,18 +1594,27 @@ body {
   align-items: center;
   justify-content: space-evenly;
   position: relative;
-  width: 300px;
-  height: 20px;
+  width: 340px;
+  height: 30px;
 }
 
 .contact .contact-Wrap .contact-Right .email-Wrap .email-Input {
   width: 100%;
   height: 100%;
   background-color: transparent;
-  border: solid #3e3e41 2px;
+  border: solid #ccc 1px;
+  font-family: "Roboto", sans-serif;
   border-left: none;
   border-right: none;
   border-top: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.contact .contact-Wrap .contact-Right .email-Wrap .email-Input::placeholder {
+  font-size: 1.2rem;
+  color: #ccc;
 }
 
 .contact .contact-Wrap .contact-Right .email-Wrap .input-Btn {
@@ -1613,5 +1622,12 @@ body {
   background-color: transparent;
   border: none;
   color: white;
+  font-size: 1.5rem;
   right: 5px;
+  cursor: pointer;
+  transition: all 150ms ease-in-out;
+}
+
+.contact .contact-Wrap .contact-Right .email-Wrap .input-Btn:active {
+  transform: scale(0.9);
 }
