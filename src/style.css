@@ -1349,3 +1349,13 @@ body {
   font-size: 5rem;
   color: white;
 }
+
+.customers .customers-Wrap .customers-Cards-Wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  width: 70%;
+  height: 60%;
+}

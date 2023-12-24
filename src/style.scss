@@ -1479,5 +1479,15 @@ body {
         color: white;
       }
     }
+
+    .customers-Cards-Wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: center;
+      align-items: center;
+      width: 70%;
+      height: 60%;
+    }
   }
 }
