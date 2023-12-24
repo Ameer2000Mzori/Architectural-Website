@@ -1387,14 +1387,31 @@ body {
   border-radius: 1rem;
 }
 
-.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 {
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-Img-2 {
+  position: absolute;
+  background-image: url("./assets/customer2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: -75px;
+  right: 25px;
+  width: 250px;
+  height: 150px;
+  border-radius: 1rem;
+}
+
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1,
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-2 {
   width: 100%;
   padding: 0;
   margin: 0;
   height: 90%;
 }
 
-.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-Name {
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-Name,
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-2-h2-Text,
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-2 .customer-Name,
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-2 .customer-2-h2-Text {
   font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 2rem;
@@ -1402,7 +1419,10 @@ body {
   margin: 0;
 }
 
-.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-Roll {
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-Roll,
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-2-P-Text,
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-2 .customer-Roll,
+.customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-2 .customer-2-P-Text {
   font-family: "Abel", sans-serif;
   color: #fff;
   font-weight: 100;

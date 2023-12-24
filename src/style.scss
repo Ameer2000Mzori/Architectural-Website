@@ -1515,13 +1515,28 @@ body {
           border-radius: 1rem;
         }
 
-        .customer-text-Wrap-1 {
+        .customer-Img-2 {
+          position: absolute;
+          background-image: url("./assets/customer2.jpg");
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          top: -75px;
+          right: 25px;
+          width: 250px;
+          height: 150px;
+          border-radius: 1rem;
+        }
+
+        .customer-text-Wrap-1,
+        .customer-text-Wrap-2 {
           width: 100%;
           padding: 0;
           margin: 0;
           height: 90%;
 
-          .customer-Name {
+          .customer-Name,
+          .customer-2-h2-Text {
             font-family: $fontOne;
             color: #fff;
             font-size: 2rem;
@@ -1529,7 +1544,8 @@ body {
             margin: 0;
           }
 
-          .customer-Roll {
+          .customer-Roll,
+          .customer-2-P-Text {
             font-family: $fontThree;
             color: #fff;
             font-weight: 100;
