@@ -1668,3 +1668,53 @@ body {
   width: 90%;
   height: 100%;
 }
+
+.footer .footer-Wrap .footer-Left {
+  width: 500px;
+}
+
+.footer .footer-Wrap .footer-Left .footer-Logo-Logo-Wrap {
+  padding: 0;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  gap: 3rem;
+  justify-content: space-between;
+}
+
+.footer .footer-Wrap .footer-Left .footer-Logo-Logo-Wrap .footer-Logo-Wrap {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin: 5px;
+}
+
+.footer .footer-Wrap .footer-Left .footer-Logo-Logo-Wrap .footer-Logo-Wrap .footer-Brand-One {
+  border: 0.3rem solid #dba81b;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: -13px;
+  left: 5px;
+}
+
+.footer .footer-Wrap .footer-Left .footer-Logo-Logo-Wrap .footer-Logo-Wrap .footer-Brand-Two {
+  background-color: #202020;
+  height: 105%;
+  width: 105%;
+  position: absolute;
+  top: -2px;
+  left: 20px;
+}
+
+.footer .footer-Wrap .footer-Left .footer-Logo-Logo-Wrap .footer-Logo-Wrap .footer-Brand-Three {
+  border: 0.3rem solid #dba81b;
+  height: 90%;
+  width: 90%;
+  position: absolute;
+  top: 3px;
+  left: 25px;
+}
