@@ -1140,6 +1140,20 @@ body {
   left: 30px;
 }
 
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .project-Text-Wrap .project-Title-Text-1 {
+  font-family: "Alfa Slab One", cursive;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 100;
+}
+
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .project-Text-Wrap .project-Title-Text-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  color: white;
+  font-weight: 100;
+}
+
 .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .line-Left {
   width: 100%;
   height: 3px;

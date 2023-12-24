@@ -1233,6 +1233,20 @@ body {
             width: 80%;
             height: 50%;
             left: 30px;
+
+            .project-Title-Text-1 {
+              font-family: $fontTwo;
+              font-size: 1.3rem;
+              color: white;
+              font-weight: 100;
+            }
+
+            .project-Title-Text-2 {
+              font-family: $fontOne;
+              font-size: 1rem;
+              color: white;
+              font-weight: 100;
+            }
           }
 
           .line-Left {
