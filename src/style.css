@@ -1674,6 +1674,23 @@ body {
   height: 100%;
 }
 
+.footer .footer-Wrap .footer-Left {
+  font-size: 0.7rem;
+  color: white;
+  font-weight: 100;
+  font-family: "Abel", sans-serif;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.footer .footer-Wrap .footer-Left .logo-Wrap {
+  width: 500px;
+  height: 20px;
+}
+
 .footer .footer-Wrap .footer-Right .footer-Right-Text {
   font-size: 1.3rem;
   color: white;

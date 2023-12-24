@@ -1807,7 +1807,20 @@ body {
     height: 100%;
 
     .footer-Left {
-      //
+      font-size: 0.7rem;
+      color: white;
+      font-weight: 100;
+      font-family: $fontThree;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+
+      .logo-Wrap {
+        width: 500px;
+        height: 20px;
+      }
     }
 
     .footer-Right {
