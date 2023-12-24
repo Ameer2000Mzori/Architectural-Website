@@ -86,8 +86,20 @@ var projectData = [
 // functions
 var listData = function () {
     // for each func to loop and get data from arry of object
+    projectData.forEach(function (data) {
+        // creating our data dynamiclly + giving data
+        var projectCard = document.createElement("div");
+        projectCard.classList.add("project-Card");
+        var ProjectImg = document.createElement("div");
+        ProjectImg.classList.add("Project-Img");
+        projectCard.appendChild(ProjectImg);
+        var hiddenInfoBox = document.createElement("div");
+        hiddenInfoBox.classList.add("project-Hiden-Ifo-Box");
+        projectCard.appendChild(hiddenInfoBox);
+    });
 };
 // event lisnters
+// window.addEventListener("load", listData);
 // look up html tree concept
 // <div class="project-Card">
 //   <div class="Project-Img"></div>
