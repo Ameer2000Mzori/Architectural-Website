@@ -107,12 +107,15 @@ var listData = function () {
         projectTextWrap.appendChild(pTitleText2);
         var lineLeft = document.createElement("div");
         lineLeft.classList.add("line-Left");
+        hiddenInfoBox.appendChild(lineLeft);
         var lineTop = document.createElement("div");
         lineTop.classList.add("line-Top");
+        hiddenInfoBox.appendChild(lineTop);
+        projectsCardsWrap.appendChild(projectCard);
     });
 };
 // event lisnters
-// window.addEventListener("load", listData);
+window.addEventListener("load", listData);
 // look up html tree concept
 // <div class="project-Card">
 //   <div class="Project-Img"></div>
