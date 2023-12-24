@@ -1564,9 +1564,41 @@ body {
   justify-content: space-evenly;
 }
 
+.contact .contact-Wrap .contact-Left {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .contact .contact-Wrap .contact-Left .contact-Left-Text {
   font-family: "Abel", sans-serif;
   font-weight: 100;
   font-size: 1.5rem;
   color: white;
+}
+
+.contact .contact-Wrap .contact-Right {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contact .contact-Wrap .contact-Right .email-Wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  width: 250px;
+  height: 40px;
+}
+
+.contact .contact-Wrap .contact-Right .email-Wrap .input-Btn {
+  position: absolute;
+  background-color: transparent;
 }

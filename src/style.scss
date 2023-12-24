@@ -1697,11 +1697,41 @@ body {
     justify-content: space-evenly;
 
     .contact-Left {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: space-evenly;
+
       .contact-Left-Text {
         font-family: $fontThree;
         font-weight: 100;
         font-size: 1.5rem;
         color: white;
+      }
+    }
+
+    .contact-Right {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .email-Wrap {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        position: relative;
+        width: 250px;
+        height: 40px;
+
+        .input-Btn {
+          position: absolute;
+          background-color: transparent;
+        }
       }
     }
   }
