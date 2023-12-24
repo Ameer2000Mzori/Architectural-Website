@@ -1502,9 +1502,9 @@ body {
         text-align: start;
         align-items: center;
 
-        .customer-Img-1 {
+        .customer-Img-1,
+        .customer-Img-2 {
           position: absolute;
-          background-image: url("./assets/customer1.jpg");
           background-repeat: no-repeat;
           background-position: center;
           background-size: cover;
@@ -1514,18 +1514,11 @@ body {
           height: 150px;
           border-radius: 1rem;
         }
-
+        .customer-Img-1 {
+          background-image: url("./assets/customer1.jpg");
+        }
         .customer-Img-2 {
-          position: absolute;
           background-image: url("./assets/customer2.jpg");
-          background-repeat: no-repeat;
-          background-position: center;
-          background-size: cover;
-          top: -75px;
-          right: 25px;
-          width: 250px;
-          height: 150px;
-          border-radius: 1rem;
         }
 
         .customer-text-Wrap-1,
