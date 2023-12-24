@@ -244,8 +244,6 @@ body {
 
 .navlinks ul {
   list-style: none;
-  padding: none;
-  margin: none;
   height: 100%;
   display: flex;
   width: 100%;
@@ -253,6 +251,8 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .navlinks ul li {
