@@ -110,6 +110,24 @@ const listData = () => {
     const hiddenInfoBox = document.createElement("div");
     hiddenInfoBox.classList.add("project-Hiden-Ifo-Box");
     projectCard.appendChild(hiddenInfoBox);
+
+    const projectTextWrap = document.createElement("div");
+    projectTextWrap.classList.add("project-Text-Wrap");
+    hiddenInfoBox.appendChild(projectTextWrap);
+
+    const pTitleText1 = document.createElement("h3");
+    pTitleText1.classList.add("project-Title-Text-1");
+    projectTextWrap.appendChild(pTitleText1);
+
+    const pTitleText2 = document.createElement("p");
+    pTitleText2.classList.add("project-Title-Text-2");
+    projectTextWrap.appendChild(pTitleText2);
+
+    const lineLeft = document.createElement("div");
+    lineLeft.classList.add("line-Left");
+
+    const lineTop = document.createElement("div");
+    lineTop.classList.add("line-Top");
   });
 };
 
@@ -128,6 +146,6 @@ const listData = () => {
 //       </p>
 //     </div>
 //     <div class="line-Left"></div>
-//     <div class="line-top"></div>
+//     <div class="line-Top"></div>
 //   </div>
 // </div>;
