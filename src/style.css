@@ -1062,7 +1062,7 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  background-color: #202020;
 }
 
 .projects .projects-Wrap {
@@ -1070,7 +1070,23 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   width: 90%;
   height: 90%;
+}
+
+.projects .projects-Wrap .project-Title-Wrap {
+  height: 20%;
+  width: 100%;
+  text-align: start;
+  align-items: start;
+  justify-content: start;
+  display: flex;
+}
+
+.projects .projects-Wrap .project-Title-Wrap .project-Title-Text {
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
 }

@@ -1162,15 +1162,31 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  background-color: #202020;
 
   .projects-Wrap {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 90%;
     height: 90%;
+
+    .project-Title-Wrap {
+      height: 20%;
+      width: 100%;
+      text-align: start;
+      align-items: start;
+      justify-content: start;
+      display: flex;
+
+      .project-Title-Text {
+        font-size: 5rem;
+        font-weight: 500;
+        font-family: $fontOne;
+        color: #fff;
+      }
+    }
   }
 }
