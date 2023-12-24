@@ -1452,7 +1452,8 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  // height: 80vh;
+  height: clamp(80vh, 100%, 200vh);
   background-color: #3e3e41;
 
   .customers-Wrap {
@@ -1609,4 +1610,8 @@ body {
       }
     }
   }
+}
+// //customer responsvness
+@media screen and (max-width: 768px) {
+  //768px
 }
