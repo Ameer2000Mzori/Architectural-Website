@@ -1462,5 +1462,22 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+
+    .customers-Title-Wrap {
+      height: 20%;
+      width: 100%;
+      text-align: center;
+      align-items: start;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+
+      .customers-Title-Text {
+        font-family: $fontOne;
+        font-weight: 500;
+        font-size: 5rem;
+        color: white;
+      }
+    }
   }
 }
