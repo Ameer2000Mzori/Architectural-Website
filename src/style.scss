@@ -1624,6 +1624,8 @@ body {
       }
 
       .customers-Cards-Wrap {
+        gap: 5rem;
+
         .customer-Card {
           width: 500px;
           height: 220px;
@@ -1632,6 +1634,8 @@ body {
           .customer-Img-2 {
             width: 200px;
             height: 120px;
+            right: -5px;
+            top: -100px;
           }
 
           .customer-text-Wrap-1,
@@ -1653,6 +1657,8 @@ body {
         width: 100%;
 
         .customer-Deco-Wrap {
+          width: 100%;
+
           .customer-Text-Wrap {
             .customer-Deco-Project-Text-1 {
               font-size: 2.5rem;

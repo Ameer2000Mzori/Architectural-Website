@@ -1492,6 +1492,10 @@ body {
     font-size: 2.5rem;
   }
 
+  .customers .customers-Wrap .customers-Cards-Wrap {
+    gap: 5rem;
+  }
+
   .customers .customers-Wrap .customers-Cards-Wrap .customer-Card {
     width: 500px;
     height: 220px;
@@ -1501,6 +1505,8 @@ body {
   .customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-Img-2 {
     width: 200px;
     height: 120px;
+    right: -5px;
+    top: -100px;
   }
 
   .customers .customers-Wrap .customers-Cards-Wrap .customer-Card .customer-text-Wrap-1 .customer-Name,
@@ -1518,6 +1524,10 @@ body {
   }
 
   .customers .customers-Wrap .customer-Bottom-Left-Deco-Wrap {
+    width: 100%;
+  }
+
+  .customers .customers-Wrap .customer-Bottom-Left-Deco-Wrap .customer-Deco-Wrap {
     width: 100%;
   }
 
