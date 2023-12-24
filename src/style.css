@@ -1649,3 +1649,22 @@ body {
     margin-bottom: 2rem;
   }
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 10vh;
+}
+
+.footer .footer-Wrap {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 100%;
+}
