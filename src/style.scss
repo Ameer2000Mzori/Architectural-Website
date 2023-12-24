@@ -1613,5 +1613,61 @@ body {
 }
 // //customer responsvness
 @media screen and (max-width: 768px) {
-  //768px
+  .customers {
+    .customers-Wrap {
+      .customers-Title-Wrap {
+        margin-bottom: 5rem;
+
+        .customers-Title-Text {
+          font-size: 2.5rem;
+        }
+      }
+
+      .customers-Cards-Wrap {
+        .customer-Card {
+          width: 500px;
+          height: 220px;
+
+          .customer-Img-1,
+          .customer-Img-2 {
+            width: 200px;
+            height: 120px;
+          }
+
+          .customer-text-Wrap-1,
+          .customer-text-Wrap-2 {
+            .customer-Name,
+            .customer-2-h2-Text {
+              font-size: 2rem;
+            }
+
+            .customer-Roll,
+            .customer-2-P-Text {
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+
+      .customer-Bottom-Left-Deco-Wrap {
+        width: 100%;
+
+        .customer-Deco-Wrap {
+          .customer-Text-Wrap {
+            .customer-Deco-Project-Text-1 {
+              font-size: 2.5rem;
+            }
+
+            .customer-Deco-Project-Text-2 {
+              font-size: 2.5rem;
+            }
+          }
+
+          .customer-Deco-Line-Wrap {
+            width: 7px;
+          }
+        }
+      }
+    }
+  }
 }
