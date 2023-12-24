@@ -1695,5 +1695,14 @@ body {
     text-align: center;
     align-items: center;
     justify-content: space-evenly;
+
+    .contact-Left {
+      .contact-Left-Text {
+        font-family: $fontThree;
+        font-weight: 100;
+        font-size: 1.5rem;
+        color: white;
+      }
+    }
   }
 }

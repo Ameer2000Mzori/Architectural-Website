@@ -1563,3 +1563,10 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.contact .contact-Wrap .contact-Left .contact-Left-Text {
+  font-family: "Abel", sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: white;
+}
