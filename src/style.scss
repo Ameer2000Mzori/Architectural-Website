@@ -1194,10 +1194,26 @@ body {
       height: 60%;
       display: flex;
       flex-direction: row;
-      text-align: start;
-      align-items: start;
-      justify-content: flex-start;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
       gap: 25px;
+
+      .project-Card {
+        height: 500px;
+        width: 300px;
+        overflow: hidden;
+
+        .Project-Img {
+          background-image: url("./assets/card1.jpg");
+          height: 100%;
+          width: 100%;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
     }
   }
 }
