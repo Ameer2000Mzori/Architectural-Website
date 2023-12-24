@@ -1057,7 +1057,7 @@ body {
 }
 
 .projects {
-  height: 110vh;
+  height: clamp(700px, 100%, 2600px);
   display: flex;
   flex-direction: column;
   text-align: center;
