@@ -1270,4 +1270,46 @@ body {
   .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap .text-Wrap .deco-Project-Text-2 {
     font-size: 2.5rem;
   }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap .deco-Line-Wrap {
+    width: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects .projects-Wrap .project-Title-Wrap .project-Title-Text {
+    font-size: 2.8rem;
+  }
+
+  .projects .projects-Wrap .projects-Cards-Wrap .project-Card {
+    height: 480px;
+  }
+
+  .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .project-Text-Wrap .project-Title-Text-1 {
+    font-size: 1.2rem;
+  }
+
+  .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .project-Text-Wrap .project-Title-Text-2 {
+    font-size: 1rem;
+  }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap {
+    width: 100%;
+  }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap {
+    width: 100%;
+  }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap .text-Wrap .deco-Project-Text-1 {
+    font-size: 2rem;
+  }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap .text-Wrap .deco-Project-Text-2 {
+    font-size: 1rem;
+  }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap .deco-Line-Wrap {
+    width: 7px;
+  }
 }
