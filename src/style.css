@@ -1126,7 +1126,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgba(27, 27, 27, 0.8784313725);
-  transition: all 350ms ease-in-out;
+  transition: all 450ms ease-in-out;
   opacity: 0;
 }
 
@@ -1140,7 +1140,7 @@ body {
   width: 80%;
   height: 50%;
   left: 30px;
-  transition: all 350ms ease-in-out;
+  transition: all 450ms ease-in-out;
 }
 
 .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .project-Text-Wrap .project-Title-Text-1 {
@@ -1158,26 +1158,34 @@ body {
 }
 
 .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .line-Left {
-  width: 100%;
+  width: 0%;
   height: 3px;
   background-color: #f1b510;
   position: absolute;
   top: 15px;
   left: 0;
-  transition: all 350ms ease-in-out;
+  transition: all 550ms ease-in-out;
 }
 
 .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .line-top {
   width: 3px;
-  height: 100%;
+  height: 0%;
   background-color: #f1b510;
   position: absolute;
   top: 0;
   left: 15px;
-  transition: all 350ms ease-in-out;
+  transition: all 550ms ease-in-out;
 }
 
 .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box:hover {
   cursor: pointer;
   opacity: 1;
+}
+
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box:hover .line-Left {
+  width: 100%;
+}
+
+.projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box:hover .line-top {
+  height: 100%;
 }
