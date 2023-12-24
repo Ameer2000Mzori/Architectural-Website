@@ -1245,3 +1245,29 @@ body {
   flex-direction: column;
   background-color: #dba81b;
 }
+
+@media screen and (max-width: 1000px) {
+  .projects .projects-Wrap .project-Title-Wrap .project-Title-Text {
+    font-size: 4.5rem;
+  }
+
+  .projects .projects-Wrap .projects-Cards-Wrap .project-Card {
+    height: 480px;
+  }
+
+  .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .project-Text-Wrap .project-Title-Text-1 {
+    font-size: 1.2rem;
+  }
+
+  .projects .projects-Wrap .projects-Cards-Wrap .project-Card .project-Hiden-Ifo-Box .project-Text-Wrap .project-Title-Text-2 {
+    font-size: 0.9rem;
+  }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap .text-Wrap .deco-Project-Text-1 {
+    font-size: 3rem;
+  }
+
+  .projects .projects-Wrap .project-Bottom-Left-Deco-Wrap .deco-Wrap .text-Wrap .deco-Project-Text-2 {
+    font-size: 2.5rem;
+  }
+}
